@@ -39,6 +39,7 @@ INSTALLED_APPS = (
 
     'core',
     'applications',
+    'jobs',
 )
 
 MIDDLEWARE_CLASSES = (
