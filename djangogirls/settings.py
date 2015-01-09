@@ -153,3 +153,10 @@ MARKDOWN_DEUX_STYLES = {
         "safe_mode": False,
     }
 }
+
+APPEND_SLASH = True
+
+try:
+    from .local_settings import *
+except:
+    pass
