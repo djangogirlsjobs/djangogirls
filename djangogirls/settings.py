@@ -37,6 +37,8 @@ INSTALLED_APPS = (
     'djrill',
     'django_nose',
 
+    'django_countries',
+
     'core',
     'applications',
     'jobs',
