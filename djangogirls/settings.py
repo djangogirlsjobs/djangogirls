@@ -48,6 +48,8 @@ INSTALLED_APPS = (
     'storages',
     'markdown_deux',
 
+    'django_countries',
+
     'core',
     'jobs',
 )
