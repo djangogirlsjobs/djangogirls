@@ -38,6 +38,8 @@ INSTALLED_APPS = (
     'django_nose',
 
     'django_countries',
+    'floppyforms',
+    'django_extensions',
 
     'core',
     'applications',
