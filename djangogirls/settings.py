@@ -49,6 +49,8 @@ INSTALLED_APPS = (
     'markdown_deux',
 
     'django_countries',
+    'floppyforms',
+    'django_extensions',
 
     'core',
     'jobs',
