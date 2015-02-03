@@ -47,8 +47,8 @@ INSTALLED_APPS = (
     'django_date_extensions',
     'storages',
     'markdown_deux',
-
     'django_countries',
+    'crispy_forms',
 
     'core',
     'jobs',
