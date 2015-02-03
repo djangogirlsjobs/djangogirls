@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django_nose',
 
     'django_countries',
+    'crispy_forms',
 
     'core',
     'applications',
