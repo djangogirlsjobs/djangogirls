@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/djangogirlsjobs/djangogirls.svg?branch=travis)](https://travis-ci.org/djangogirlsjobs/djangogirls)
+[![Coverage Status](https://coveralls.io/repos/djangogirlsjobs/djangogirls/badge.svg)](https://coveralls.io/r/djangogirlsjobs/djangogirls)
+(Coverage for jobs app only)
+
 # Django Girls website
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/djangogirlsjobs/djangogirls?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
