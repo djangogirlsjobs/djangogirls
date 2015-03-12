@@ -40,6 +40,7 @@ INSTALLED_APPS = (
 
     'django_countries',
     'crispy_forms',
+    'bootstrap3_datetime',
 
     'core',
     'applications',
