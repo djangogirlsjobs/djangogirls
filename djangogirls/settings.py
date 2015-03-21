@@ -41,6 +41,7 @@ INSTALLED_APPS = (
     'django_countries',
     'crispy_forms',
     'datetimewidget',
+    'ckeditor',
 
     'core',
     'applications',
@@ -163,6 +164,19 @@ MARKDOWN_DEUX_STYLES = {
 }
 
 APPEND_SLASH = True
+
+CKEDITOR_UPLOAD_PATH = "uploads/"
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar':  [
+		 ['Source', '-', 'Bold', 'Italic', 'Underline'],
+         ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', 'Blockquote', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
+         ['Image', 'Table', 'HorizontalRule', 'Smiley', 'SpecialChar'],
+         ['Format', 'Font', 'FontSize'],
+         ['TextColor', 'BGColor']
+        ],
+    },
+}
 
 # dummy settings to use with Travis CI only
 if 'TRAVIS' in os.environ:
