@@ -184,6 +184,12 @@ EMAIL_HOST = 'smtp.megiteam.pl'
 EMAIL_PORT = 465
 EMAIL_SUBJECT_PREFIX = '[Django Girls]'
 
+JOBS_EMAIL_USER = os.environ.get('JOBS_EMAIL_USER')
+JOBS_EMAIL_PASSWORD = os.environ.get('JOBS_EMAIL_PASSWORD')
+
+MEETUPS_EMAIL_USER = os.environ.get('MEETUPS_EMAIL_USER')
+MEETUPS_EMAIL_PASSWORD = os.environ.get('MEETUPS_EMAIL_PASSWORD')
+
 # dummy settings to use with Travis CI only
 if 'TRAVIS' in os.environ:
   SECRET_KEY='secret'
